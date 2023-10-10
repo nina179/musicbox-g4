@@ -1,17 +1,425 @@
-.flex-container {
+.home-page {
+  background-color: #2e4057;
   display: flex;
   flex-direction: row;
-  background-color: lavender;
-  height: 200px;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  width: 100%;
 }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
+.home-page .div {
+  background-color: #2e4057;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.home-page .header {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 72px;
+  align-items: center;
+  padding: 0px 485px;
+  position: absolute;
+  top: 0;
+  left: -240px;
+  background-color: transparent;
+}
+
+.home-page .div-site-header-bg {
+  position: absolute;
+  width: 1920px;
+  height: 95px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(20, 24, 28) 0%,
+    rgba(20, 24, 28, 0.94) 16.56%,
+    rgba(20, 24, 28, 0.8) 30.85%,
+    rgba(20, 24, 28, 0.61) 43.77%,
+    rgba(20, 24, 28, 0.39) 56.23%,
+    rgba(20, 24, 28, 0.2) 69.15%,
+    rgba(20, 24, 28, 0.05) 83.44%,
+    rgba(20, 24, 28, 0) 100%
+  );
+  opacity: 0.7;
+}
+
+.home-page .section {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  height: 72px;
+  align-items: flex-start;
+  padding: 22px 677px 25px 0px;
+  position: relative;
+}
+
+.home-page .div-2 {
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-page .text-wrapper {
+  position: relative;
+  width: 120px;
+  height: 23px;
+  margin-top: -1px;
+  font-family: "Secular One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 17px;
+}
+
+.home-page .nav {
+  display: flex;
+  flex-direction: column;
+  width: 496px;
+  align-items: flex-start;
+  position: absolute;
+  top: 22px;
+  left: 299px;
+}
+
+.home-page .list {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 0px 7.63e-6px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home-page .item-link {
+  width: 57.45px;
+  padding: 6px 2.45px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-page .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #d8e0e8;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 17px;
+  white-space: nowrap;
+}
+
+.home-page .create-account-wrapper {
+  width: 135.19px;
+  padding: 6px 4.19px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-page .films-wrapper {
+  width: 44.83px;
+  padding: 6px 1.83px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-page .lists-wrapper {
+  width: 41.3px;
+  padding: 6px 1.3px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-page .members-wrapper {
+  width: 72.75px;
+  padding: 6px 2.75px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-page .journal-wrapper {
+  width: 69.48px;
+  padding: 6px 2.48px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-page .overlap-group {
+  top: 282px;
+  position: absolute;
+  width: 960px;
+  height: 230px;
+  left: 199px;
+}
+
+.home-page .heading-wrapper {
+  position: absolute;
+  width: 950px;
+  height: 230px;
+  top: 0;
+  left: 10px;
+}
+
+.home-page .heading {
+  width: 950px;
+  padding: 0px 684px 6px 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #445566;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-page .new-albums-on-tunify {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #99aabb;
+  font-size: 12.7px;
+  letter-spacing: 0.98px;
+  line-height: 13px;
+  white-space: nowrap;
+}
+
+.home-page .section-list {
+  position: absolute;
+  width: 960px;
+  height: 150px;
+  top: 42px;
+  left: 0;
+}
+
+.home-page .item-margin {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: 150px;
+  align-items: flex-start;
+  padding: 0px 0px 0px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home-page .item {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #161718;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px #00000059;
+}
+
+.home-page .img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.home-page .item-wrapper {
+  width: 160px;
+  height: 150px;
+  left: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 10px;
+  position: absolute;
+  top: 0;
+}
+
+.home-page .div-wrapper {
+  width: 150px;
+  height: 75px;
+  left: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 10px;
+  position: absolute;
+  top: 0;
+}
+
+.home-page .item-2 {
+  height: 150px;
+  align-self: stretch;
+  width: 100%;
+  margin-bottom: -75px;
+  background-color: #161718;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px #00000059;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-page .img-2 {
+  position: relative;
+  width: 140px;
+  height: 150px;
+}
+
+.home-page .item-margin-2 {
+  width: 160px;
+  height: 150px;
+  left: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 10px;
+  position: absolute;
+  top: 0;
+}
+
+.home-page .item-margin-3 {
+  width: 160px;
+  height: 150px;
+  left: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 10px;
+  position: absolute;
+  top: 0;
+}
+
+.home-page .item-margin-4 {
+  width: 150px;
+  height: 75px;
+  left: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 10px;
+  position: absolute;
+  top: 0;
+}
+
+.home-page .div-homepage-welcome {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 153px;
+  left: 220px;
+}
+
+.home-page .heading-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 215.9px 0px 216.1px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home-page .welcome-back {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  margin-left: -216px;
+  margin-right: -216px;
+  font-family: "Yrsa-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 48px;
   text-align: center;
-  line-height: 75px;
-  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.home-page .span {
+  color: #c9c5cb;
+}
+
+.home-page .text-wrapper-3 {
+  font-family: "Yrsa-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.home-page .div-homepage-welcome-2 {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 560px;
+  left: 194px;
+}
+
+.home-page .wanna-track-and-rate {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  margin-left: -182px;
+  margin-right: -182px;
+  font-family: "Yrsa-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.home-page .overlap {
+  top: 743px;
+  position: absolute;
+  width: 960px;
+  height: 230px;
+  left: 199px;
+}
+
+.home-page .popular-albums-on {
+  position: relative;
+  width: 241px;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #99aabb;
+  font-size: 12.7px;
+  letter-spacing: 0.98px;
+  line-height: 13px;
 }
