@@ -1,0 +1,192 @@
+.log-in {
+  background-color: #2e4057;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.log-in .overlap-group-wrapper {
+  background-color: #2e4057;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.log-in .overlap-group {
+  position: relative;
+  width: 1920px;
+  height: 1024px;
+  left: -266px;
+}
+
+.log-in .dashboard-login-dark {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 0;
+  left: 266px;
+}
+
+.log-in .header {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 72px;
+  align-items: center;
+  padding: 0px 485px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.log-in .div-site-header-bg {
+  position: absolute;
+  width: 1920px;
+  height: 95px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(20, 24, 28) 0%,
+    rgba(20, 24, 28, 0.94) 16.56%,
+    rgba(20, 24, 28, 0.8) 30.85%,
+    rgba(20, 24, 28, 0.61) 43.77%,
+    rgba(20, 24, 28, 0.39) 56.23%,
+    rgba(20, 24, 28, 0.2) 69.15%,
+    rgba(20, 24, 28, 0.05) 83.44%,
+    rgba(20, 24, 28, 0) 100%
+  );
+  opacity: 0.7;
+}
+
+.log-in .section {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  height: 72px;
+  align-items: flex-start;
+  padding: 22px 677px 25px 0px;
+  position: relative;
+}
+
+.log-in .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.log-in .pseudo {
+  position: absolute;
+  width: 238px;
+  height: 32px;
+  top: -4px;
+  left: -4px;
+  opacity: 0.5;
+}
+
+.log-in .text-wrapper {
+  position: relative;
+  width: 120px;
+  height: 23px;
+  margin-top: -1px;
+  font-family: "Secular One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 17px;
+}
+
+.log-in .nav {
+  display: flex;
+  flex-direction: column;
+  width: 496px;
+  align-items: flex-start;
+  position: absolute;
+  top: 22px;
+  left: 299px;
+}
+
+.log-in .list {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 0px 7.63e-6px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.log-in .item-link {
+  display: flex;
+  flex-direction: column;
+  width: 57.45px;
+  align-items: flex-start;
+  padding: 6px 2.45px 0px 0px;
+  position: relative;
+}
+
+.log-in .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #d8e0e8;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 17px;
+  white-space: nowrap;
+}
+
+.log-in .create-account-wrapper {
+  width: 135.19px;
+  padding: 6px 4.19px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.log-in .films-wrapper {
+  width: 44.83px;
+  padding: 6px 1.83px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.log-in .lists-wrapper {
+  width: 41.3px;
+  padding: 6px 1.3px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.log-in .members-wrapper {
+  width: 72.75px;
+  padding: 6px 2.75px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.log-in .journal-wrapper {
+  width: 69.48px;
+  padding: 6px 2.48px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
