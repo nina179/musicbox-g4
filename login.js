@@ -8,11 +8,13 @@ const RESPONSE_TYPE = "token"
 const [token, setToken] = useState("")
 */
 
-const CLIENT_ID = 'YOUR_CLIENT_ID';
-const REDIRECT_URI = 'http://localhost:8080';
+const CLIENT_ID = 'de7b2ec487da449c8ac828d026e5b5c3';
+const REDIRECT_URI = 'http://geofang.com';
 const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize?';
 const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
 const PROFILE_ENDPOINT = 'https://api.spotify.com/v1/me';
+
+console.log("tets")
 
 function generateRandomString(length) {
     let text = '';
@@ -98,14 +100,14 @@ function oAuthCallback() {
 }
 
 
-async function getProfile(accessToken) {
-  let accessToken = localStorage.getItem('access_token');
+// async function getProfile(accessToken) {
+//   let accessToken = localStorage.getItem('access_token');
 
-  const response = await fetch(PROFILE_ENDPOINT, {
-      headers: {
-      Authorization: 'Bearer ' + accessToken
-      }
-  });
+//   const response = await fetch(PROFILE_ENDPOINT, {
+//       headers: {
+//       Authorization: 'Bearer ' + accessToken
+//       }
+//   });
 
-  const data = await response.json();
-}
+//   const data = await response.json();
+// }
