@@ -9,12 +9,21 @@ const [token, setToken] = useState("")
 */
 
 const CLIENT_ID = 'de7b2ec487da449c8ac828d026e5b5c3';
-const REDIRECT_URI = 'http://geofang.com';
+const REDIRECT_URI = 'localhost:60332/callback';
 const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize?';
 const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
 const PROFILE_ENDPOINT = 'https://api.spotify.com/v1/me';
 
-console.log("tets")
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello, World!');
+});
+
+server.listen(3000, () => {
+  console.log('Server is listening on port 3000');
+});
 
 function generateRandomString(length) {
     let text = '';
