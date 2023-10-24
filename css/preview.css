@@ -20,7 +20,7 @@
   width: 950px;
   align-items: center;
   gap: 40px;
-  position: absolute;
+  position: relative;
   top: 248px;
   left: 245px;
 }
@@ -31,7 +31,7 @@
   align-items: center;
   padding: 0px 215.9px 0px 216.1px;
   position: relative;
-  align-self: stretch;
+  align-self: center;
   width: 100%;
   flex: 0 0 auto;
 }
