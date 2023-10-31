@@ -1,0 +1,1 @@
+This folder contains images of wireframing and mockups for the application
