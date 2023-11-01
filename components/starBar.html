@@ -1,0 +1,55 @@
+<header>
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style> 
+        .star-bar {
+            display: inline-flex;
+            height: 16px;
+            padding: 2px;
+        }
+        .stars-outer {
+            display: inline-table;
+            margin-right: 5px;
+            position: relative;
+            font-family: FontAwesome;
+        }
+
+        .stars-outer::before {
+            content: "\f006 \f006 \f006 \f006 \f006";
+            color:black
+        }
+
+        .stars-inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 90%;
+            /* change percentage to change rating display
+            should be 10%, 20%, 30%, etc. for clean half stars*/
+        }
+
+        .stars-inner::before {
+          content: "\f005 \f005 \f005 \f005 \f005";
+          color: black;
+        }
+        
+        .rating {
+            display: inline-block;
+            font-size: 16px;
+            margin: auto;
+        }
+    </style>
+</header>
+
+<body>
+    <div class="star-bar">
+        <div class="stars-outer">
+            <div class="stars-inner"></div>
+        </div>
+        <h3 class="rating">4.5</h3>
+    </div>
+</body>
+
