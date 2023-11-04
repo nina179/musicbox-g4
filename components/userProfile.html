@@ -2,25 +2,41 @@
     .userProfile{
         font: 20px "Century Gothic", Futura, sans-serif;
         padding: 10px;
-        width: 150px;
+/*        width: 1675px;*/
+        width: 100%;
         height: 200px;
         display: grid;
         grid-template-columns: auto auto auto;
+        column-gap: 10px;
+        grid-template-columns: 150px 200px auto;
     }
     .profilePic{
         width: 150px;
         height: 150px;
         margin-bottom: 5px;
         display: grid;
-        column-gap: 50px;
+        grid-column-start: 1;
+        border-radius: 50%;
     }
     .username{
         font-size: 18px;
-        padding: 20px;
         font-size: 30px;
-        text-align: center;
+        text-align: left;
         display: grid;
-        column-gap: 50px;
+        grid-column-start: 2;
+        margin: auto;
+    }
+    .numberAl{
+        font-size: 18px;
+        padding: 20px;
+        font-size: 20px;
+        text-align: right;
+        display: grid;
+        grid-column-start: 3;
+        margin: auto;
+    }
+    .UserBio{
+        margin: auto;
     }
 </style>
 
@@ -30,5 +46,9 @@
     </div>
     <div>
         <h2 class ="username"> Username </h2>
+        <p class="UserBio">Bio</p>
+    </div>
+    <div>
+        <h2 class ="numberAl"> #albums </h2>
     </div>
 </div>
