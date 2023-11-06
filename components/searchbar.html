@@ -1,1 +1,43 @@
+<style>
+    .box{
+    position: relative;
+    }
+    .input {
+        padding: 10px;
+        width: 80px;
+        height: 80px;
+        background: none;
+        border: 4px solid #2F9C95;
+        border-radius: 50px;
+        box-sizing: border-box;
+        font: 20px "Century Gothic", Futura, sans-serif;       font-size: 26px;
+        color: #2F9C95;
+        outline: none;
+        transition: .5s;
+    }
+    .box:hover input{
+        width: 350px;
+        background: #3b3640;
+        border-radius: 10px;
+    }
+    .box i{
+        position: absolute;
+        top: 50%;
+        left: 40px;
+        transform: translate(-50%,-50%);
+        font-size: 26px;
+        color: #2F9C95;
+        transition: .2s;
+    }
+    .box:hover i{
+        opacity: 0;
+        z-index: -1;
+    }
+</style>
 
+<div class="box">
+    <form name="search">
+        <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
+    </form>
+    <i class="fas fa-search"></i>
+</div>
